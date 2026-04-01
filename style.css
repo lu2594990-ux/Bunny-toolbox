@@ -1,0 +1,24 @@
+#bny-fab {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99999;
+    width: 52px;
+    height: 52px;
+    font-size: 24px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff6b9d, #c44569);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 107, 157, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#bny-fab:active {
+    transform: scale(0.9);
+}
