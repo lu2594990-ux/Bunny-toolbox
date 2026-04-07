@@ -1,4 +1,5 @@
 jQuery(() => {
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no');
     function getPresetName() {
         try {
             var el = document.getElementById("settings_preset_openai");
